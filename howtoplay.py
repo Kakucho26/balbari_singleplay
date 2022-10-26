@@ -9,7 +9,7 @@ def howtoplay():
 반갑다, 왈! 나는 강아지 발바리라고 한다!
 발바리라는 카드게임을 들어보았나? Y/N ''')
 
-    while not (welcome == 'Y' or welcome == 'N'):
+    while not (welcome.upper() == 'Y' or welcome.upper() == 'N'):
         welcome = input('예는 Y, 아니오는 N이다! ')
 
     if welcome == 'N':
